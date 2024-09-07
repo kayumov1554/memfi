@@ -1,0 +1,5 @@
+1-masala 2*2+4
+2-masala 2-3*6
+3-masala 12+5*2
+4-masala 15*2+25
+5-masala 25*2*5

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ok.ru</title>
+    <link rel="stylesheet" href="hero.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="left">
+          <h1>OK.ru</h1>
+        </div>
+        <div class="bottom">
+          <a href="">Home</a>
+          <a href="">About</a>
+          <a href="">Contact</a>
+          <a href="">More</a>
+        </div>
+        <div class="right">
+          <button id="Updates">GetUpdates</button>
+          <button id="Download">Download</button>
+        </div>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="container">
+        <div class="left">
+          <h1 class="wow animate__animated animate__fadeInDown">
+            Web Messaging App
+          </h1>
+          <p class="wow animate__animated animate__fadeInDown">
+            Get your messages and calls in your mobiles. No more waiting
+          </p>
+          <button
+            type="button"
+            id="Getbtn"
+            class="wow animate__animated animate__fadeInDown"
+          >
+            Get Plans
+          </button>
+        </div>
+        <div class="right" id="right">
+          <div class="card wow animate__animated animate__fadeInRight">
+            <h1>Normal</h1>
+            <div class="details">
+              <p>6 hours in day</p>
+              <p>1000 messages</p>
+              <p>1000 calls</p>
+              <p>limited</p>
+              <p>49$</p>
+            </div>
+            <button type="button">Get Plan</button>
+          </div>
+          <div class="card wow animate__animated animate__fadeInRight">
+            <h1>Easy</h1>
+            <div class="details">
+              <p>12 hours in day</p>
+              <p>5000 messages</p>
+              <p>3000 calls</p>
+              <p>limited</p>
+              <p>99$</p>
+            </div>
+            <button type="button">Get Plan</button>
+          </div>
+          <div class="card wow animate__animated animate__fadeInRight">
+            <h1>Very Easy</h1>
+            <div class="details">
+              <p>24 hours in day</p>
+              <p>7000 messages</p>
+              <p>5000 calls</p>
+              <p>Unlimited Acces</p>
+              <p>199$</p>
+            </div>
+            <button type="button">Get Plan</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="container" id="container"></div>
+    </section>
+    <script src="hero.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>

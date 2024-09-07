@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: rgb(39, 29, 82);
+}
+
+nav .container {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+nav .container .left h1 {
+  font-size: 30px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav .container .bottom {
+  display: flex;
+  gap: 20px;
+}
+
+nav .container .bottom a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.432);
+  transition: all 0.4s ease;
+}
+
+nav .container .bottom a:hover {
+  margin-top: -5px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.section1 .container {
+  display: flex;
+  width: 1400px;
+  height: 70vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 .container .left {
+  width: 50%;
+}
+
+.section1 .container .left h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: 300;
+}
+
+.section1 .container .left p {
+  color: white;
+  padding: 50px 0;
+  font-size: 24px;
+}
+
+.section1 .container .left .log {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  width: 500px;
+}
+
+.section1 .container .left .log a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 15px;
+  border-radius: 25px;
+}
+
+.section1 .container .left .log .tex {
+  color: white;
+}
+
+.section1 .container .left .log svg {
+  fill: white;
+}
+
+.section1 .container .right {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}

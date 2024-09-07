@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #212529;
+  box-sizing: border-box;
+}
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+nav .container .left h1 {
+  font-size: 30px;
+  color: orange;
+}
+
+nav .container .bottom {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+nav .container .bottom a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.4s ease;
+}
+
+nav .container .right button {
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border: none;
+}
+
+nav .container .right button:hover {
+  background-color: aqua;
+  color: black;
+  transform: translateY(-3px);
+}
+
+nav .container .bottom a:hover {
+  color: aqua;
+  transform: translateY(-3px);
+}
+
+.section .container {
+  display: flex;
+  width: 1400px;
+  height: 60vh;
+  margin: 0 auto;
+  padding: 30px 0;
+  gap: 20px;
+}
+
+.section .container .left {
+  display: flex;
+  width: 50%;
+  height: 50vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section .container .left h1 {
+  font-size: 50px;
+  color: orange;
+  margin: 0;
+}
+
+.section .container .left p {
+  font-size: 20px;
+  color: white;
+  padding: 20px 0;
+  animation-delay: 0.2s;
+}
+
+.section .container .left button {
+  background: #17a2b8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease !important;
+  animation-delay: 0.4s;
+}
+
+.section .container .left button:hover {
+  background-color: aqua;
+  color: black;
+  transform: translateY(-3px);
+}
+
+.section .container .right {
+  display: flex;
+  width: 50%;
+  height: 50vh;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.section .container .right .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: auto;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 15px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.section .container .right .card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.section .container .right .card:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.section .container .right .card:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.section .container .right .card:hover::before {
+  content: "";
+  position: absolute;
+  width: 130px;
+  height: 150%;
+  background: linear-gradient(#00ccff, #d500f9);
+  animation: rotate 3s linear infinite;
+  z-index: -1;
+}
+
+.section .container .right .card:hover::after {
+  content: "";
+  position: absolute;
+  inset: 5px;
+  background: #212529;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.section .container .right .card h1 {
+  margin: 0;
+  color: orange;
+  text-align: start;
+  width: 80%;
+}
+
+.section .container .right .card p {
+  list-style: none;
+  color: white;
+  font-size: 16px;
+}
+
+.section .container .right .card .details {
+  text-align: start;
+  width: 80%;
+}
+
+.section .container .right .card button {
+  background: #17a2b8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.section .container .right .card button:hover {
+  background-color: aqua;
+  color: black;
+  transform: scale(0.9);
+  display: flex;
+}
+
+.section2 .container {
+  display: flex;
+  width: 1400px;
+  height: 60vh;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section2 .container .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: auto;
+  background-color: transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.section2 .container .card img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.section2 .container .card h1 {
+  color: orange;
+  text-align: start;
+  width: 80%;
+  margin: 10;
+}
+
+.section2 .container form {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  gap: 10px;
+}
+
+.section2 .container form input {
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-left: 18px;
+}
+
+.section2 .container form button {
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}

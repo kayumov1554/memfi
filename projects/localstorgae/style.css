@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #212529;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+nav .container .left h1 {
+  font-size: 30px;
+  color: orange;
+}
+
+nav .container .bottom {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+nav .container .bottom a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease !important;
+}
+nav .container .bottom a:hover {
+  color: red;
+  transform: translateY(-3px);
+}
+
+nav .container .right button {
+  background: #17a2b8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease !important;
+}
+
+nav .container .right button:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.section .container {
+  width: 1400px;
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+}
+
+.section .container .left {
+  display: flex;
+  width: 50%;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section .container .left h1 {
+  font-size: 40px;
+}
+
+.section .container .left h1 span {
+  color: aqua;
+}
+.section .container .left p {
+  color: aqua;
+  font-size: 20px;
+}
+
+.section .container .left button {
+  background: #17a2b8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease !important;
+}
+
+.section .container .left button:hover {
+  background-color: aqua;
+  color: black;
+  transform: translateY(-3px);
+}
+
+.section .container .right {
+  display: flex;
+  width: 50%;
+  height: 70vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section .container .right img {
+  width: 200px;
+}
+
+.section .container .right p {
+  font-size: 19px;
+  text-align: center;
+  color: white;
+}

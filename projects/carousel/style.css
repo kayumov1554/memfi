@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav .container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+nav .container h1{
+    padding: 0 200px;
+}
+
+nav .container h2{
+    padding: 0 200px;
+}
+
+.section .container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    height: 80vh;
+    background-image: url("https://img.freepik.com/premium-photo/wet-asphalt-reflection-neon-lights_129911-2443.jpg?w=1380");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: start;
+    align-items: center;
+}
+
+.section .container .carousel{
+    width: 400px;
+    margin-left: 200px;
+}
+
+.section .container .carousel .item{
+    height: 300px;
+    padding: 20px;
+    overflow: hidden;
+}
+
+
+.section .container .carousel .item h1{
+    color: white;
+    font-size: 30px;
+    text-align: start;
+}
+
+.section .container .carousel .item p{
+    color: white;
+    font-size: 16px;
+    width: 400px;
+    padding: 20px 0;
+}
+
+.section .container .carousel .item a{
+    color: white;
+    text-decoration: none;
+}
+
+.section .container .carousel .item a:hover{
+    color: black;
+}
+
+.section .container .carousel .item button{
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.section .container .carousel .owl-next{
+    border: 2px solid black;
+    padding: 0 20px !important;
+    font-size: 30px;
+}
+
+.section .container .carousel .owl-prev{
+    border: 2px solid black;
+    padding: 0 20px !important;
+    font-size: 30px;
+}
+
+.section .container .carousel .owl-prev:hover{
+    background: rgba(255, 255, 255, 0.411);
+}
+
+.section .container .carousel .owl-next:hover{
+    background: rgba(255, 255, 255, 0.411);
+}
+
+
+.section2 .container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section2 .container h1{
+    font-size: 45px;
+    padding: 40px 0;
+}
+
+.section2 .container p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.699);
+    width: 700px;
+    text-align: center;
+    animation-delay: 0.3s;
+}
+
+.section2 .container .more{
+    padding: 25px 0;
+    animation-delay: .5s;
+}
+
+.section2 .container .more a{
+    color: black;
+    text-decoration: none;
+}
+
+.section2 .container .more a:hover{
+    color: rgba(0, 0, 0, 0.541);
+}
+
+
+.section2 .container .cards{
+    display: flex;
+    margin: 0 auto;
+    gap: 30px;
+    padding: 30px 0;
+}
+
+.section2 .container .cards .card{
+    width: 270px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.section2 .container .cards .card:nth-child(1){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url("https://emigrant.pt/wp-content/uploads/2021/04/consulting_c.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+.section2 .container .cards .card:nth-child(2){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url("https://polinka.top/pics1/uploads/posts/2023-11/1701366940_polinka-top-p-strategiya-kartinka-18.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.section2 .container .cards .card:nth-child(3){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url("https://blog.iteam.ru/wp-content/uploads/2022/10/marketing-gantt-chart-goals-completion.jpg");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.section2 .container .cards .card:nth-child(4){
+    background-image: linear-gradient(rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400), rgba(0, 0, 0, 0.400)), url("https://smallbizclub.com/wp-content/uploads/2020/09/bigstock-Double-Exposure-Image-Of-Busin-347430169.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.section2 .container .cards .card img{
+    width: 150px;
+    border-radius: 50%;
+    animation-delay: 0.4s;
+}
+
+
+.section2 .container .cards .card p{
+    width: 230px;
+    text-align: start;
+    font-size: 19px;
+    color: white;
+    animation-delay: 0.6s;
+}
+
+.section2 .container .cards .card h1{
+    color: white;
+    animation-delay: 0.5s;
+}
+
+
+.section3 .container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background: rgba(20, 157, 221, 0.411);
+}
+
+.section3 .container .left{
+    width: 50%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 30px 100px;
+}
+
+.section3 .container .left h1{
+    font-size: 50px;
+    width: 800px;
+}
+
+.section3 .container .left p{
+    font-size: 19px;
+    width: 500px;
+    padding: 30px 0;
+}
+
+.section3 .container .left i{
+    font-size: 19px;
+    animation-delay: .1s;
+}
+
+.section3 .container .left .contact{
+    border: 2px solid cornflowerblue;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 20px 0;
+    color: cornflowerblue;
+}
+
+.section3 .container .left .contact:hover{
+    color: white;
+    background: cornflowerblue;
+}
+
+.section3 .container .left .freepik{
+    color: red;
+    text-decoration: none;
+}
+
+.section3 .container .left .freepik:hover{
+    color: black;
+}
+
+
+.section3 .container .right{
+    width: 50%;
+    height: 60vh;
+}
+
+.section3 .container .right img{
+    width: 700px;
+    height: 600px;
+    margin-top: 20px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="shortcut icon" href="/img/google.png" type="image/x-icon" />
+  </head>
+  <style>
+    .loader {
+      display: none; /* Boshlang'ich holatda ko'rinmaydi */
+      border: 16px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 16px solid #3498db;
+      width: 120px;
+      height: 120px;
+      animation: spin 2s linear infinite;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="left">
+          <h1>ngrok</h1>
+        </div>
+        <div class="bottom">
+          <a href="">Platform</a>
+          <a href="">Use Cases</a>
+          <a href="">Blog</a>
+          <a href="">Resources</a>
+          <a href="">Docs</a>
+          <a href="">Pricing</a>
+          <a href="">Get Ngrok</a>
+        </div>
+      </div>
+    </nav>
+    <section class="section1">
+      <div class="container">
+        <div class="right">
+          <p id="message"></p>
+          <div class="loader" id="loader"></div>
+          <a onclick="checkName()">Get Ngrok</a>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

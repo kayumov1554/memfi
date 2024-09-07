@@ -1,0 +1,542 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+}
+
+nav .container {
+  display: flex;
+  width: 1400px;
+  height: 50px;
+  margin: 0 auto;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+nav .container .left svg {
+  fill: coral;
+}
+
+nav .container .bottom a {
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0 10px;
+  transition: all 0.3s ease;
+}
+
+nav .container .bottom a:hover {
+  color: coral;
+}
+
+nav .container .end .book-btn {
+  padding: 10px 20px;
+  background: coral;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+.sct1 .container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.sct1 .container .left {
+  width: 40%;
+}
+
+.sct1 .container .left h2 {
+  text-align: center;
+  color: coral;
+}
+
+.sct1 .container .left h1 {
+  font-size: 60px;
+}
+
+.sct1 .container .left i {
+  color: black;
+  display: block;
+  width: 300px;
+  padding: 0 20px;
+  text-align: start;
+  margin-top: 20px;
+}
+
+.sct1 .container .left button {
+  width: 50px;
+  height: 40px;
+  border: 2px solid black;
+  border-top-right-radius: 10px;
+  margin: 0 20px;
+  color: white;
+  background: black;
+  margin-top: 30px;
+}
+
+.sct1 .container .left .btn-text {
+  display: flex;
+  padding: 20px 0;
+}
+
+.sct1 .container .left .btn-text h2 {
+  color: black;
+  font-size: 20px;
+  padding-top: 35px;
+}
+
+.sct1 .container .left h3 {
+  padding: 30px 0;
+}
+
+.sct1 .container .right {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+}
+.sct1 .container .right img {
+  width: 85%;
+}
+.sct1 .container .endcontent {
+  position: absolute;
+  right: -0px;
+  width: 200px;
+}
+.sct1 .container .endcontent a {
+  text-decoration: none;
+  color: coral;
+}
+
+.sct2 .container {
+  display: flex;
+  width: 1400px;
+  height: 80vh;
+  margin: 0 auto;
+  padding: 50px 0;
+  gap: 10px;
+}
+
+.sct2 .container .left {
+  width: 50%;
+  background: rgba(255, 228, 196, 0.341);
+}
+
+.sct2 .container .left p {
+  padding: 10 30px;
+}
+
+.sct2 .container .left h1 {
+  padding: 10 30px;
+}
+
+.sct2 .container .left img {
+  margin: 30px 30px;
+}
+
+.sct2 .container .right {
+  width: 50%;
+  background: rgba(70, 131, 180, 0.526);
+}
+
+.sct2 .container .right p {
+  padding: 0 30px;
+}
+
+.sct2 .container .right h1 {
+  padding: 0 30px;
+}
+
+.sct2 .container .right img {
+  margin: 30px 30px;
+}
+
+.sct3 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1400px;
+  height: 60vh;
+  margin: 0 auto;
+}
+
+.sct3 .container .left {
+  width: 40%;
+}
+
+.sct3 .container .right {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.sct3 .container .right .frombig {
+  font-size: 45px;
+  text-align: start;
+}
+
+.sct3 .container .abouts {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.sct3 .container .abouts .card {
+  width: 48%;
+
+  display: flex;
+  align-items: flex-start;
+}
+.sct3 .container .abouts .card .num {
+  width: 200px;
+}
+
+.sct3 .container .abouts h1 {
+  width: 50px;
+  background: red;
+  text-align: center;
+  color: white;
+}
+
+.sct3 .container .bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.sct3 .container .bottom .card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 30%;
+}
+
+.sct4 {
+  padding: 40px 0;
+}
+.sct4 .container {
+  background: #f4f1f1;
+  display: flex;
+  width: 1400px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.sct4 .container .titl {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.sct4 .container .card {
+  width: 32%;
+  border: 1px solid white;
+  padding: 30px 0;
+  background: white;
+  box-shadow: 0 0 20px rgb(172, 169, 169);
+}
+
+.sct4 .container .card h1 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.sct4 .container .card svg {
+  fill: coral;
+}
+
+.sct4 .container .card p {
+  font-size: 15px;
+  padding: 20px 20px;
+  width: 400px;
+}
+
+.sct4 .container .card .icon {
+  display: flex;
+  justify-content: center;
+}
+
+.sct4 .container .card .icon h1 {
+  width: 300px;
+}
+
+.sct5 {
+  padding: 40px 0;
+}
+
+.sct5 .container {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 30px 20px;
+}
+
+.sct5 .container .left {
+  width: 50%;
+}
+
+.sct5 .container .card {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.sct5 .container .right {
+  width: 50%;
+}
+.sct6 .container{
+  display: flex;
+  width: 1400px;
+  height: 40vh;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.sct6 .container .left {
+  width: 40%;
+  background-color: #212429;
+}
+
+.sct6 .container .left img{
+  width: 484px;
+  height: 400px;
+}
+
+.sct6 .container .right{
+  width: 60%;
+  background: #212429;
+}
+
+.sct6 .container .right h1{
+  font-size: 40px;
+  color: white;
+}
+
+.sct6 .container .right .righttext{
+  margin-top: 70px;
+}
+
+.sct6 .container .right p{
+  padding: 20px 0;
+  color: rgba(255, 255, 255, 0.705);
+}
+
+.sct6 .container .right a{
+  width: 200px;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  background: rgb(218, 71, 3);
+}
+
+.sct7 .container{
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.sct7 .container .head .svg2{
+  width: 100px;
+  height: 200px;
+  fill: rgb(238, 64, 11);;
+  margin-left: 545px;
+}
+
+.sct7 .container .head .text{
+  text-align: center;
+  margin-top: -50px;
+}
+
+.sct7 .container .head .text p{
+  color: rgb(238, 64, 11);
+
+}
+
+.sct7 .container .head .icons{
+  display: flex;
+}
+
+.sct7 .container .head .icons p{
+  width: 500px;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.sct7 .container .icons svg{
+  width: 60px;
+  height: 50px;
+  fill: white;
+  border: 2px solid rgb(238, 64, 11);;
+  background: rgb(238, 64, 11);;
+  margin: 50px 130px;
+}
+
+.sct7 .container .images .box img{
+  padding: 0 20px;
+}
+
+.sct8 .container{
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.sct8 .container .head h1{
+  font-size: 35px;
+  padding: 30px 0;
+  text-align: center;
+}
+
+.sct8 .container .bottom {
+  display: flex;
+  gap: 20px;
+}
+
+.sct8 .container .bottom img{
+  width: 450px;
+  height: 350px;
+}
+
+.sct8 .container .bottom .data{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sct8 .container .bottom .data1{
+  display: flex;
+  gap: 20px;
+  padding: 30px 35px;
+}
+
+.sct8 .container .bottom .data2{
+  display: flex;
+  gap: 20px;
+  padding: 30px 35px;
+}
+
+.sct8 .container .bottom .data2 svg{
+  fill: rgb(238, 64, 11);;
+}
+
+.sct8 .container .bottom .data1 svg {
+  fill: rgb(238, 64, 11);;
+}
+
+.sct8 .container .bottom .card h1{
+  font-size: 20px;
+  width: 371px;
+  padding: 10px 40px;
+}
+
+.sct8 .container .bottom .card{
+  box-shadow: 0 0 30px rgb(209, 208, 208); 
+  height: 550px;
+}
+
+.sct9 .container {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sct9 .container .box h1{
+  width: 801px;
+  height: 192px;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 60px;
+}
+
+.sct9 .container .box2 h1 {
+  font-size: 40px;
+  color: rgb(238, 64, 11);;
+}
+
+.sct9 .container .box2 .website{
+  display: flex;
+}
+
+.sct9 .container .box2 .website svg{
+  width: 80px;
+  height: 60px;
+  transform: rotate(-40deg);
+  fill: rgb(238, 64, 11);;
+}
+
+
+.sct10 .container{
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  flex-direction: column;
+  background: white;
+  margin: 100px 250px;
+  box-shadow: 0 0 10px;
+
+}
+
+.sct10 .container .box  {
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.sct10 .container .box svg{
+  width: 100px;
+  height: 100px;
+  padding: 10px 0;
+  fill: rgb(238, 64, 11);;
+}
+
+.sct10 .container .box h1{
+  padding: 10px 0;
+  font-size: 35px;
+}
+ 
+.sct10 .container .box p{
+  padding: 10px 0;
+}
+
+.sct10 .container .contacts{
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+.sct10 .container .contacts a{
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 19px;
+  transition: all .3s ease;
+}
+
+.sct10 .container .contacts a:hover{
+  color: red;
+}

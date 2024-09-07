@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace;
+}
+
+nav .container {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+
+nav .container .left svg {
+  fill: red;
+}
+
+nav .container .right a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  padding: 0 15px;
+  transition: all 0.3s ease;
+}
+
+nav .container .right a:hover {
+  color: red;
+}
+
+.section .container {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(114, 22, 195);
+  background: linear-gradient(
+    90deg,
+    rgba(114, 22, 195, 1) 0%,
+    rgba(97, 59, 235, 1) 35%,
+    rgba(34, 30, 32, 1) 58%,
+    rgba(54, 92, 166, 1) 82%
+  );
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.section .container .left {
+  width: 50%;
+}
+
+.section .container .left .box {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.section .container .left .box h1 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.section .container .left .box p{
+  color: white;
+  font-size: 20px;
+  margin: 30px 0;
+}
+
+.section .container .left .box a{
+  color: white;
+  width: 300px;
+  text-decoration: none;
+  font-size: 24px;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+
+.section .container .right {
+  width: 50%;
+}
+.section .container .right img {
+  height: 710px;
+  margin-left: 70px;
+}
+
+.section1 .container{
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 .container .card img{
+  margin-top: -150px;
+}
+
+.section2 .container{
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 .container h1{
+  font-size: 60px;
+}
+
+.section2 .container p{
+  font-size: 40px;
+  padding: 30px 0;
+}
+
+.section2 .container .icons{
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.section2 .container .icons {
+  width: 1200px;
+  height: 100px;
+  align-items: center;
+}
+
+.section2 .container .icons img{
+  margin: 300px 40px;
+}
+
+.section3 .container{
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.section3 .container .left{
+  width: 40%;
+}
+
+.section3 .container .right{
+  width: 60%;
+}
+
+.section3 .container .right .box{
+  width: 500px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.section3 .container .right .box p{
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.section3 .container .right .box h1{
+  font-size: 34px;
+  font-weight: bold;
+  padding: 30px 0;
+}
+
+.section3 .container .right .box .text{
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.section3 .container .right .cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.section3 .container .right .card {
+  margin-left: 100px;
+  padding: 50px 0;
+}
+
+
+.section3 .container .right .card .internet{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.section3 .container .right .card .internet h1{
+  font-size: 25px;
+}
+
+.section3 .container .right .card p{
+  width: 243px;
+  padding: 30px 0;
+  font-size: 20px;
+}
+.section3 .container .right .card .comander{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.section3 .container .right .card .comander h1{
+  font-size: 25px;
+}
+
+.section3 .container .right .card .seo{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.section3 .container .right .card .security{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-left: 50px;
+  margin-top: -7px;
+}
+
+.section3 .container .right .card .about{
+  margin-left: 60px;
+}
+
+.section4 .container {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  gap: 50px;
+} 
+
+.section4 .container .left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: center;
+}
+
+.section4 .container .left p{
+  font-size: 19px;
+  padding: 30px 0;
+  width: 485px;
+}
+
+.section4 .container .left a{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  border: 2px solid black;
+  width: 180px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 15px 5px;
+  background: black;
+}
+
+.section4 .container .left h1{
+  font-size: 35px;
+}
+
+.section4 .container .right{
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.section5 .container{
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 50px 0;
+  align-items: center;
+}
+
+.section5 .container .left{
+  width: 60%;
+}
+
+.section5 .container .left p{
+  font-size: 20px;
+}
+
+.section5 .container .left h1{
+  font-size: 35px;
+  padding: 20px 0;
+}
+
+.section5 .container .right{
+  width: 60%;
+  display: flex;
+  gap: 20px;
+  align-items: end;
+  justify-content: end;
+}
+
+.section6 .container {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.section6 .container .card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+
+.section6 .container .card .details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section6 .container .card .details h1{
+  font-size: 35px;
+}
+
+.section6 .container .card .details p{
+  font-size: 25px;
+  padding: 20px 0;
+}
+
+.section6 .container .card .details a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  background: black;
+  border: 2px solid black;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+.section7 .container {
+  display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.section7 .container .left{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.section7 .container .right{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.section7 .container .right h1{
+  font-size: 35px;
+  text-align: start;
+}
+
+.section7 .container .right p{
+  font-size: 20px;
+  width: 600px;
+  padding: 25px 0;
+}
+
+.section7 .container .right .icons{
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  align-items: en;
+}

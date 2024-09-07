@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav .container{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 30px rgb(197, 195, 195);
+}
+
+nav .container .left h2{
+    font-size: 34px;
+    padding: 0 300px;
+    color: #212529;
+    font-weight: 500;
+}
+
+nav .container .right{
+    fill: #212529;
+    padding: 0 300px;
+}
+
+.section .container{
+    display: flex;
+    width: 1400px;
+    height: 80vh;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.651), rgba(0, 0, 0, 0.651)), url("https://img.freepik.com/free-photo/low-angle-cheerful-team-students-passed-test-by-preparing-all-together_496169-2336.jpg?t=st=1718321530~exp=1718325130~hmac=51f575ae0756b69c97d41966b383be4f9d77fbf78b7d86e2b3280cb074032332&w=1380");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.section .container h1{
+    font-size: 85px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.section .container h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+    padding: 20px 0;
+    color: white;
+    animation-delay: .3s;
+}
+
+.section .container p{
+    font-size: 35px;
+    color: white;
+}
+
+.section .container a{
+    font-size: 35px;
+    transition: all .5s ease;
+    color: #fff;
+}
+
+.section .container a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.section .container button{
+    font-size: 35px;
+    padding: 20px 40px;
+    margin: 50px 0;
+    color: #212529;
+    background: yellow;
+    outline: none;
+    border: 2px solid yellow;
+    animation-delay: 0.6s;
+}
+
+.section .container button:hover{
+    background: white;
+    border: 2px solid white;
+}
+
+
+.section1 .container{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    background: yellow;
+    overflow: hidden;
+}
+
+.section1 .container h1{
+    font-size: 70px;
+    animation-delay: 0.5s;
+}
+
+.section1 .container p{
+    font-size: 24px;
+    width: 1000px;
+    text-align: center;
+    padding: 30px 0;
+    animation-delay: 1.3s;
+}
+
+.section1 .container .links{
+    display: flex;
+    gap: 50px;
+    padding: 40px 0;
+}
+
+.section1 .container .links .card h1{
+    font-size: 30px;
+}
+
+.section1 .container .links .card{
+    width: 250px;
+    height: 250px;
+    border: 2px solid #212529;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .3s ease;
+    animation-delay: 1s;
+}
+
+.section1 .container .links .card:hover{
+    border: 2px solid transparent;
+    margin-top: -10px;
+}
+
+.section2 .container{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.section2 .container h1{
+    font-size: 50px;
+    padding: 70px 0;
+    text-align: center;
+    animation-delay: 0.6s;
+}
+
+.section2 .container .cards{
+    display: flex;
+    margin: 0 auto;
+    gap: 40px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2 .container .cards .card{
+    width: 500px;
+    height: 580px;
+    background: yellow;
+    animation-delay: 0.8s;
+}
+
+.section2 .container .cards .card img{
+    width: 480px;
+    padding: 10px 10px;
+}
+
+.section2 .container .cards .card .abouts{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px 10px;
+}
+
+.section2 .container .cards .card .abouts h1{
+    font-size: 30px;
+    letter-spacing: 5px;
+    padding: 0;
+}
+
+.section2 .container .cards .card .abouts p{
+    font-size: 16px;
+    padding: 30px 0;
+    letter-spacing: 2px;
+}
+
+.section2 .container .cards .card .abouts a{
+    font-size: 26px;
+    letter-spacing: 4px;
+    transition: all .6s ease;
+    color: #212529;
+}
+
+.section2 .container .cards .card .abouts a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.section3 .container{
+    display: flex;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.section3 .container .left{
+    width: 50%;
+}
+
+.section3 .container .left img{
+    width: 100%;
+    height: 100%;
+}
+
+.section3 .container .right{
+    width: 50%;
+    background: #212529;
+}
+
+.section3 .container .right form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.section3 .container .right form input{
+    padding: 20px 20px;
+    color: #212529;
+    font-size: 25px;
+    outline: none;
+    margin: 40px 0;
+    width: 70%;
+}
+
+.section3 .container .right form input::placeholder{
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.section3 .container .right form textarea{
+    padding: 20px 20px;
+    margin: 30px 0;
+    width: 70%;
+    height: 100px;
+    outline: none;
+    font-size: 30px;
+}
+
+.section3 .container .right form textarea::placeholder{
+    font-size: 40px;
+}
+
+.section3 .container .right form button{
+    width: 77%;
+    font-size: 30px;
+    padding: 20px 0;
+    background: yellow;
+    letter-spacing: 2px;
+    border: 2px solid yellow;
+    transition: all 0.4s ease;
+}
+
+.section3 .container .right form button:hover{
+    background: rgba(255, 255, 0, 0.637);
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+.section3 .container .right form h1{
+    color: white;
+    font-size: 60px;
+}
