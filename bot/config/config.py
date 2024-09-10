@@ -10,7 +10,7 @@ class Settings(BaseSettings):
     MIN_AVAILABLE_ENERGY: int = 100
     SLEEP_BY_MIN_ENERGY: int = 200
 
-    ADD_TAPS_ON_TURBO: int = 50000
+    ADD_TAPS_ON_TURBO: int = 25000
 
     AUTO_UPGRADE_TAP: bool = False
     MAX_TAP_LEVEL: int = 5
